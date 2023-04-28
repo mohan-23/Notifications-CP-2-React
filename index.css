@@ -1,0 +1,67 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 40px;
+}
+
+.informationCard {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+}
+
+.messageHeading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.successCard {
+  background-color: #2dca73;
+  height: 30px;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.warningCard {
+  background-color: #ffb800;
+  height: 30px;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.errorCard {
+  background-color: #ff0b37;
+  height: 30px;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
